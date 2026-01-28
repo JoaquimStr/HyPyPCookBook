@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.venv/
+.env
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files)
+data/raw/
+data/processed/
+*.fif
+*.edf
+*.bdf
+
+# Outputs
+outputs/
+figures/
+*.png
+*.pdf
+
+# Documentation (internal)
+docs/
+
+# Poetry
+poetry.lock
